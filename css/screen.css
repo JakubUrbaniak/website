@@ -10,17 +10,70 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+}
+
+/*
+head {
+  font-size: 30px;
+  color: grey;
+  flex;
+  flex-direction: center;
+} */
+
+body {
   font-size: 16px;
-  line-height: 1.6em;
+  line-height: 18px;
 }
 
-a {
-  font-size: 1em;
-  line-height: 1.6em;
-}
-
-work {
+header {
   font-size: 2em;
   line-height: 2.2em;
-  padding-bottom: 2em;
+  padding-bottom: .25em;
+}
+
+.h-card,
+.p-name,
+.p-tell,
+.u-email,
+.p-locality,
+.p-region {
+  font-size: 1em;
+  line-height: 1.2em;
+  padding-bottom: 1em;
+}
+
+#work,
+#education {
+  font-size: 2em;
+  line-height: 1em;
+  padding-bottom: .5em;
+}
+
+.workplace,
+.community-college,
+.university  {
+  padding-top: .25em;
+  font-size: .7em;
+  line-height: 1em;
+  padding-bottom: .5em;
+}
+
+.workdescription,
+.associates-degree,
+.bachelors-degree {
+  font-size: .6em;
+  line-height: 1em;
+  padding-bottom: .5em;
+}
+
+.yearsexperience,
+.college-time,
+.university-time {
+  font-size: .5em;
+  line-height: 1em;
+  padding-bottom: 1em;
 }
