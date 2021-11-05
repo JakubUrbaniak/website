@@ -77,3 +77,14 @@ header {
   font-size: 1.2em;
   line-height: 1.2em;
 }
+
+#about-me {
+  font-size: 2em;
+  line-height: 1.5em;
+  
+}
+
+#about-me-body {
+  font-size: .8em;
+  line-height: 1em;
+}
