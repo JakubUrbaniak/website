@@ -35,12 +35,7 @@ header {
   padding-bottom: .25em;
 }
 
-.h-card,
-.p-name,
-.p-tell,
-.u-email,
-.p-locality,
-.p-region {
+.h-card {
   font-size: 1em;
   line-height: 1.2em;
   padding-bottom: 1em;
@@ -48,7 +43,7 @@ header {
 
 #work,
 #education {
-  font-size: 2em;
+  font-size: 2.2em;
   line-height: 1em;
   padding-bottom: .5em;
 }
@@ -76,4 +71,9 @@ header {
   font-size: .5em;
   line-height: 1em;
   padding-bottom: 1em;
+}
+
+#navigation {
+  font-size: 1.2em;
+  line-height: 1.2em;
 }
