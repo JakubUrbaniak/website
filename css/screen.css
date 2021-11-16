@@ -32,6 +32,7 @@ header {
   font-size: 2em; /* 32/16 = 2*/
   line-height: 1em; /* 16/16 = 1*/
   font-weight: bold;
+  padding-top: .25em; /* 4/16 = 0.25*/
 }
 
 .workplace,
@@ -39,6 +40,8 @@ header {
 .university  {
   font-size: .75em; /* 12/16 = .75*/
   line-height: 1em; /* 16/16 = 1 (redundant but maybe useful for future?)*/
+  padding-top: .25em; /* 4/16 = 0.25*/
+  font-weight: normal;
 }
 
 .workdescription,
@@ -46,6 +49,8 @@ header {
 .bachelors-degree {
   font-size: .625em; /* 10/16 = .625*/
   line-height: 1em; /* 16/16 = 1*/
+  font-weight: normal;
+  padding-top: .25em; /* 4/16 = 0.25*/
 }
 
 .yearsexperience,
@@ -53,11 +58,18 @@ header {
 .university-time {
   font-size: .5em; /* 8/16 = .5*/
   line-height: 1em; /* 16/16 = 1*/
+  font-weight: normal;
+  padding-top: .25em; /* 4/16 = 0.25*/
 }
 
-#navigation {
+#navigation ul {
   font-size: 1.25em; /* 20/16 = 1.25*/
   line-height: 1.25em; /* 20/16 = 1.25*/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: .5em; /* 8/16 = 0.5*/
+  gap: .75em; /* 12/16 = 0.75*/
 }
 
 #about-me {
