@@ -44,31 +44,29 @@ header {
 .workdescription,
 .associates-degree,
 .bachelors-degree {
-  font-size: .6em;
-  line-height: 1em;
-  padding-bottom: .5em;
+  font-size: .625em; /* 10/16 = .625*/
+  line-height: 1em; /* 16/16 = 1*/
 }
 
 .yearsexperience,
 .college-time,
 .university-time {
-  font-size: .5em;
-  line-height: 1em;
-  padding-bottom: 1em;
+  font-size: .5em; /* 8/16 = .5*/
+  line-height: 1em; /* 16/16 = 1*/
 }
 
 #navigation {
-  font-size: 1.2em;
-  line-height: 1.2em;
+  font-size: 1.25em; /* 20/16 = 1.25*/
+  line-height: 1.25em; /* 20/16 = 1.25*/
 }
 
 #about-me {
-  font-size: 2em;
-  line-height: 1.5em;
+  font-size: 2em; /* 32/16 = 2*/
+  line-height: 1.5em; /* 24/16 = 1.5*/
 
 }
 
 #about-me-body {
-  font-size: .8em;
-  line-height: 1em;
+  font-size: .75em; /* 12/16 = .75*/
+  line-height: 1em; /* 16/16 = 1.25*/
 }
