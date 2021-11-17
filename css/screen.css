@@ -12,13 +12,14 @@ html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em; /* 16/16 = 1*/
   line-height: 1.125em;  /* 18/16 = 1.125*/
+  background-color: #D3D3D3;
 }
 
 
 header {
   font-size: 2em; /* 32/16 = 2*/
   line-height: 2.25em; /* 36/16 = 2.25*/
-  background-color: #181716;
+  background-color: #2a2727;
   color: #DCDCDC;
   display: flex;
   justify-content: center;
@@ -28,6 +29,11 @@ header {
   font-size: 1em; /* 16/16 = 1*/
   line-height: 1.125em; /* 18/16 = 1*/
   padding-bottom: 1em; /* 16/16 = 1*/
+  color: #DCDCDC;
+  text-decoration: none;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
 
 #work,
@@ -36,6 +42,8 @@ header {
   line-height: 1em; /* 16/16 = 1*/
   font-weight: bold;
   padding-top: .25em; /* 4/16 = 0.25*/
+  background-color: #393433;
+  color: #DCDCDC;
 }
 
 .workplace,
@@ -72,13 +80,12 @@ header {
   flex-flow: row wrap;
   justify-content: center;
   gap: .75em; /* 12/16 = 0.75*/
-  background-color: #453f3d;
+  background-color: #D3D3D3;
   color: #DCDCDC;
 }
 
 a {
   text-decoration: none;
-  color: color: #DCDCDC;
 }
 
 #about-me {
