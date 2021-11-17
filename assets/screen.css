@@ -108,6 +108,11 @@ footer {
   font-size: .75em; /*12/16 = .75*/
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 @media screen and (min-width: 30em) {    /* 480/16 = 30*/
 
 }
