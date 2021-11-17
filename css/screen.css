@@ -76,6 +76,7 @@ header {
 #navigation ul {
   font-size: 1.25em; /* 20/16 = 1.25*/
   line-height: 1.25em; /* 20/16 = 1.25*/
+  padding-top: 1em; /* 16/16 = 1 */
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -100,4 +101,23 @@ a {
   line-height: 1em; /* 16/16 = 1.25*/
   background-color: #393433;
   color: #DCDCDC;
+}
+
+footer {
+  padding-top: 2em; /*32/16 = 2*/
+  font-size: .75em; /*12/16 = .75*/
+}
+
+@media screen and (min-width: 30em) {    /* 480/16 = 30*/
+  html {
+    font-size: 1.5em; /* 24/16 = 1.5 */
+    line-height: 1.6875em; /* 27/16 = 1/6875 */
+  }
+}
+
+@media screen and (min-width: 48em) {  /* 768/16 = 48*/
+  html {
+    font-size: 2em; /* 32/16 = 2 */
+    line-height: 2.5em; /* 36/16 = 1/6875 */
+  }
 }
