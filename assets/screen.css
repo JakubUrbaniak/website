@@ -21,8 +21,7 @@ header {
   line-height: 2.25em; /* 36/16 = 2.25*/
   background-color: #2a2727;
   color: #DCDCDC;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .h-card {
@@ -31,9 +30,7 @@ header {
   padding-bottom: 1em; /* 16/16 = 1*/
   color: #DCDCDC;
   text-decoration: none;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
+  text-align: center;
 }
 
 #work,
@@ -94,6 +91,7 @@ a {
   line-height: 1.5em; /* 24/16 = 1.5*/
   background-color: #2a2727;
   color: #DCDCDC;
+  text-align: center;
 }
 
 #about-me-body {
@@ -114,9 +112,7 @@ img {
 }
 
 figcaption {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  text-align: center;
 }
 @media screen and (min-width: 30em) {    /* 480/16 = 30*/
   img {
