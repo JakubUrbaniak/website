@@ -17,7 +17,7 @@ html {
 }
 
 
-header {
+#header {
   font-size: 2em; /* 32/16 = 2*/
   line-height: 2.25em; /* 36/16 = 2.25*/
   background-color: #2a2727;
@@ -25,29 +25,18 @@ header {
   text-align: center;
 }
 
-#resume-header{
-
-}
-
 #about-header{
-
+  color: #DCDCDC;
+  background-color: #565656;
+  text-align:center;
 }
 
 #about-navigation{
-
+  color: #DCDCDC;
+  background-color: #C09F80;
+  text-align: center;
 }
 
-#resume-navigation{
-
-}
-
-#about-main{
-
-}
-
-#resume-main{
-
-}
 
 .h-card {
   font-size: 1em; /* 16/16 = 1*/
@@ -114,7 +103,7 @@ a {
 #about-me {
   font-size: 2em; /* 32/16 = 2*/
   line-height: 1.5em; /* 24/16 = 1.5*/
-  background-color: #2a2727;
+  background-color: #76323F;
   color: #DCDCDC;
   text-align: center;
 }
@@ -122,7 +111,7 @@ a {
 #about-me-body {
   font-size: .75em; /* 12/16 = .75*/
   line-height: 1em; /* 16/16 = 1.25*/
-  background-color: #393433;
+  background-color: #FF3B3F;
   color: #DCDCDC;
 }
 
