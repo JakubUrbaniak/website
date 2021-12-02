@@ -13,8 +13,9 @@ html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em; /* 16/16 = 1*/
   line-height: 1.125em;  /* 18/16 = 1.125*/
-  background-color: #D3D3D3;
-  text-align: center;
+  background-color: #2a2727;
+  text-align: center
+  color: #DCDCDC;
 }
 
 
@@ -141,7 +142,9 @@ img {
 
 figcaption {
   text-align: center;
+  color: #DCDCDC;
 }
+
 @media screen and (min-width: 30em) {    /* 480/16 = 30*/
   img {
     max-width: 50%;
