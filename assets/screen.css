@@ -14,6 +14,7 @@ html {
   font-size: 1em; /* 16/16 = 1*/
   line-height: 1.125em;  /* 18/16 = 1.125*/
   background-color: #D3D3D3;
+  text-align: center;
 }
 
 
@@ -25,26 +26,19 @@ html {
   text-align: center;
 }
 
-#about-header{
-  color: #DCDCDC;
-  background-color: #565656;
-  text-align:center;
-}
-
-#about-navigation{
-  color: #DCDCDC;
-  background-color: #C09F80;
-  text-align: center;
-}
-
-
 .h-card {
   font-size: 1em; /* 16/16 = 1*/
   line-height: 1.125em; /* 18/16 = 1*/
   padding-bottom: 1em; /* 16/16 = 1*/
-  color: #DCDCDC;
   text-decoration: none;
   text-align: center;
+  background-color: #062F4F;
+  color: #DCDCDC;
+}
+
+#resume-header{
+  background-color: #062F4F;
+  color: #DCDCDC;
 }
 
 #work,
@@ -53,7 +47,7 @@ html {
   line-height: 1em; /* 16/16 = 1*/
   font-weight: bold;
   padding-top: .25em; /* 4/16 = 0.25*/
-  background-color: #393433;
+  background-color: #4484CE;
   color: #DCDCDC;
 }
 
@@ -82,6 +76,11 @@ html {
   line-height: 1em; /* 16/16 = 1*/
   font-weight: normal;
   padding-top: .25em; /* 4/16 = 0.25*/
+}
+
+#resume-navigation{
+  background-color: #008F95;
+  color: #DCDCDC
 }
 
 #navigation ul {
@@ -115,9 +114,24 @@ a {
   color: #DCDCDC;
 }
 
+#about-header{
+  color: #DCDCDC;
+  background-color: #565656;
+  text-align:center;
+}
+
+#about-navigation{
+  color: #DCDCDC;
+  background-color: #C09F80;
+  text-align: center;
+}
+
+
 footer {
   padding-top: 2em; /*32/16 = 2*/
   font-size: .75em; /*12/16 = .75*/
+  background-color: #2a2727;
+  color: #DCDCDC;
 }
 
 img {
